@@ -4,8 +4,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"/>
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -13,6 +13,30 @@
     <title>Desainku Store</title>
   </head>
   <body>
+	
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+	<div class="container">
+  <a class="navbar-brand" href="#">Desainku Store</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><svg style="width:20px;height:18px" viewBox="0 0 16 26">
+    <path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+</svg> Home <span class="sr-only">(current)</span></a>
+      </li>
+     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <svg style="width:20px;height:18px" viewBox="0 0 16 26">
+    <path fill="currentColor" d="M13,9H11V7H13M13,17H11V11H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+</svg> Tentang Produk
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Bahan Custom Case</a>
+		  <a class="dropdown-item" href="#">Contoh Desain</a>
+          <a class="dropdown-item" href="#">Harga & Pemesanan</a>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
@@ -41,9 +65,39 @@
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
-
+      </li>
+  
+	 <li class="nav-item">
+        <a class="nav-link" href="#"><svg style="width:20px;height:18px" viewBox="0 0 16 26">
+    <path fill="currentColor" d="M20 2H4C2.9 2 2 2.9 2 4V16C2 17.1 2.9 18 4 18H8V21C8 21.6 8.4 22 9 22H9.5C9.7 22 10 21.9 10.2 21.7L13.9 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2M11 13H7V8.8L8.3 6H10.3L8.9 9H11V13M17 13H13V8.8L14.3 6H16.3L14.9 9H17V13Z" />
+</svg> Testimoni</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><svg style="width:20px;height:18px" viewBox="0 0 16 26">
+    <path fill="currentColor" d="M12 3C6.5 3 2 6.6 2 11C2 13.1 3 15.1 4.8 16.5C4.8 17.1 4.4 18.7 2 21C2 21 5.5 21 8.5 18.5C9.6 18.8 10.8 19 12 19C17.5 19 22 15.4 22 11S17.5 3 12 3M13 15H11V13H13V15M14.8 10C14.5 10.4 14.1 10.6 13.7 10.8C13.4 11 13.3 11.1 13.2 11.3C13 11.5 13 11.7 13 12H11C11 11.5 11.1 11.2 11.3 10.9C11.5 10.7 11.9 10.4 12.4 10.1C12.7 10 12.9 9.8 13 9.6C13.1 9.4 13.2 9.1 13.2 8.9C13.2 8.6 13.1 8.4 12.9 8.2C12.7 8 12.4 7.9 12.1 7.9C11.8 7.9 11.6 8 11.4 8.1C11.2 8.2 11.1 8.4 11.1 8.7H9.1C9.2 8 9.5 7.4 10 7C10.5 6.6 11.2 6.5 12.1 6.5C13 6.5 13.8 6.7 14.3 7.1C14.8 7.5 15.1 8.1 15.1 8.8C15.2 9.2 15.1 9.6 14.8 10Z" />
+</svg> FAQ</a>
+      </li>
+	 <li class="nav-item">
+        <a class="nav-link" href="#"><svg style="width:20px;height:18px" viewBox="0 0 16 26">
+    <path fill="currentColor" d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
+</svg> Hubungi Kami</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+	<div style="padding:0 0 20px 0;background:#ADD8E6;">
+      <div id="home" class="container">
+        <div class="text-center" style="font-weight:600;">
+	<img src="img/logo3.png" width="300">
+          <h6>by Rizaldi Priantama</h6>
+	<h1 class="display-4"><b>Mengapa Custom Case di Desainku Store ?</b></h1><br>
+	 <div class="row justify-content-center">
+          <div class="col text-left">
+            <p>✅ Bahan Berkualitas sehingga Produk Kuat & Tahan Lama</p>
+          </div>
+	 <div class="col text-left">
+            <p>✅ Bebas Desain, Banyak Pilihan Desain, 100% UNIK !</p>
     <div class="jumbotron" id="home">
       <div class="container">
         <div class="text-center">
@@ -58,10 +112,73 @@
             <p>Hasil Cetak Berkualitas Tinggi</p>
           </div>
         </div>
+			 <div class="row justify-content-center">
+          <div class="col text-left">
+            <p>✅ Hasil Cetak Berkualitas Tinggi</p>
+          </div>
+	 <div class="col text-left">
+            <p>✅ Case Nyaman Digunakan, Pas di Handphone, Tidak Merusak Body</p>
+          </div>
+        </div>
+			<div class="row justify-content-center">
+          <div class="col text-left">
+            <p>✅ Harga Mahasiswa, Kualitas Bintang 5</p>
+          </div>
+	 <div class="col text-left">
+            <p>✅ Produk Bergaransi 1 Minggu (Tidak Puas?Kami Ganti Baru!)</p>
+          </div>
+        </div>
+		</div>
+		</div>
+      </div><br>
+
+<!--
+<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img style="height:500px" src="img/thumbs/blackmatte1.jpg" class="d-block w-100" alt="gambar1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
+    <div class="carousel-item">
+      <img style="height:500px" src="img/thumbs/anti-crack1.jpg" class="d-block w-100" alt="gambar2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img style="height:500px" src="img/thumbs/hardcase1.jpg" class="d-block w-100" alt="gambar3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+--> 
 
    <!-- Produk -->
+    <section class="portfolio" id="portfolio">
+    <div class="container">
+	      <div class="row mb-4">
+          <div class="col text-center">
+            <h2>Pilihan Bahan Custom Case</h2>
     <section class="portfolio bg-light" id="portfolio">
       <div class="container">
 
@@ -99,6 +216,136 @@
             <h2>Testimoni</h2>
           </div>
         </div>
+	<div class="card text-center">
+	  <div class="card-header">
+		<ul class="nav nav-tabs">
+			<li class="nav-item">
+				<a href="#blackmatte" class="nav-link active" data-toggle="tab">Black Matte</a>
+			</li>
+			<li class="nav-item">
+				<a href="#anti-crack" class="nav-link" data-toggle="tab">Anti-Crack</a>
+			</li>
+			<li class="nav-item">
+				<a href="#hardcase" class="nav-link" data-toggle="tab">Hardcase</a>
+			</li>
+			<li class="nav-item">
+				<a href="#glasscase" class="nav-link" data-toggle="tab">Glass Case</a>
+			</li>
+		</ul>
+		</div>
+	<div class="card-body">
+	<div class="tab-content">
+			<div class="tab-pane fade show active" id="blackmatte">
+			<h4 class="mt-2">Custom Softcase Black Matte</h4>
+			<div class="row justify-content-center">
+			<div class="col md-5">
+            <img style="width:100%;height:auto" src="img/thumbs/blackmatte1.jpg">
+			</div>
+			<div class="col md-5">
+			<img style="width:100%;height:auto" src="img/thumbs/blackmatte2.jpg">
+			</div>
+			<div class="col md-5">
+           <img style="width:100%;height:auto" src="img/thumbs/blackmatte3.jpg">
+	</div>
+	</div>
+	<h3><b>Spesifikasi :</b></h3>
+<p class="text-left">
+✅ Case Lentur dengan berbahan dasar Silikon, dan memiliki warna dasar gelap (hitam)<br>
+✅ Kualitas Bahan Premium, sehingga meskipun lentur dan elastis, tetap kuat, awet dan tidak mudah rusak<br>
+✅ Terdapat varian High grade<br>
+✅ Desain Custom, 100% Unik dengan hasil cetak terbaik, memungkinkan Full Print Warna di bagian belakang case<br>
+✅ Dapat di print Doff (kesat) maupun Glossy (licin mengkilap)<br>
+✅ Case 99% pas dengan HP, nyaman digunakan<br>
+✅ Dapat dipasang Handgrip<br></p>
+		</div>
+				<div class="tab-pane fade" id="anti-crack">
+					<h4 class="mt-2">Custom Softcase Anti-Crack</h4>
+		<div class="row justify-content-center">
+         <div class="col md-5">
+         <img style="width:100%;height:auto" src="img/thumbs/anti-crack1.jpg">
+          </div>
+	 <div class="col md-5">
+           <img style="width:100%;height:auto" src="img/thumbs/anti-crack2.jpg">
+          </div>
+	<div class="col md-5">
+           <img style="width:100%;height:auto" src="img/thumbs/anti-crack3.jpg">
+          </div>
+        </div>
+		<h3><b>Spesifikasi :</b></h3>
+<p class="text-left">
+✅ Case Lentur dengan berbahan dasar TPU sejenis Silikon, dengan ketebalan 0.3mm dan memiliki warna dasar bening<br>
+✅ Kualitas Bahan Premium, sehingga meskipun elastis, bahan ini kuat, awet, tidak menguning, dan tidak mudah rusak<br>
+✅ Terdapat varian High Grade<br>
+✅ Terdapat Bumper anti benturan di setiap ujung case, melindungi handphone anda dari benturan maupun terjatuh<br>
+✅ Desain Custom, 100% Unik dengan hasil cetak terbaik, memungkinkan Full Print Warna di bagian belakang case<br>
+✅ Dapat di print Doff (kesat) maupun Glossy (licin mengkilap)<br>
+✅ Case 99% pas dengan HP, nyaman digunakan<br>
+✅ Dapat dipasang Handgrip
+</p></div>
+				<div class="tab-pane fade" id="hardcase">
+					<h4 class="mt-2">Custom 3D Hardcase</h4>
+		<div class="row justify-content-center">
+          <div class="col md-5">
+            <img style="width:100%;height:auto" src="img/thumbs/hardcase1.jpg">
+          </div>
+	 <div class="col md-5">
+           <img style="width:100%;height:auto" src="img/thumbs/hardcase2.jpg">
+          </div>
+	<div class="col md-5">
+           <img style="width:100%;height:auto" src="img/thumbs/hardcase3.jpg">
+          </div>
+        </div>
+		<h3><b>Spesifikasi :</b></h3>
+<p class="text-left">
+✅Case Keras, Kuat serta Tahan Panas dengan berbahan dasar Polycarbonate, dengan memiliki warna dasar putih<br>
+✅ Kualitas Bahan Premium, Bahan kuat, awet, aman dan tidak mudah rusak<br>
+✅ Kuat menempel pada handphone, tapi tidak merusak permukaan dan tetap mudah dilepas<br>
+✅ Desain Custom, 100% Unik dengan hasil cetak terbaik, memungkinkan Full Print Warna di bagian belakang dan samping case<br>
+✅ Dapat di print Doff (kesat) maupun Glossy (licin mengkilap)<br>
+✅ Case 99% pas dengan HP, nyaman digunakan<br>
+✅ Dapat dipasang Handgrip<br>
+</p>
+				</div>
+				<div class="tab-pane fade" id="glasscase">
+					<h4 class="mt-2">Custom Glass Case</h4>
+		<div class="row justify-content-center">
+          <div class="col md-5">
+            <img style="width:100%;height:auto" src="img/thumbs/glasscase1.jpg">
+          </div>
+	 <div class="col md-5">
+           <img style="width:100%;height:auto" src="img/thumbs/glasscase2.jpg">
+          </div>
+	<div class="col md-5">
+           <img style="width:100%;height:auto" src="img/thumbs/glasscase3.jpg">
+          </div>
+        </div>
+		<h3><b>Spesifikasi :</b></h3>
+<p class="text-left">
+✅ Case Termewah dari semua varian case Desainku Store<br>
+✅ Berbahan Full Glass with Coating & TPU dengan total ketebalan 1,9 mm<br>
+✅ Terdapat Bevel di ujung case agar glass tidak tajam dan terlihat mewah <br>
+✅ Kualitas Bahan Premium, sehingga kuat, awet, tahan api, anti-noda, tahan gores, dan tidak mudah rusak<br>
+✅ Kualitas Printing High Resolution 2880dpi, 8 warna dengan teknologi dari Jepang<br>
+✅ Hasil printing dicetak di permukaan Coating Glass <br>
+✅ Desain Custom, 100% Unik<br>
+✅ Case 99% pas dengan HP, nyaman digunakan<br>
+✅ Dapat dipasang Handgrip</p>
+	</div>
+		</div>
+
+</div>
+      </div>
+    </section>
+
+<<<<<<< HEAD
+    <!-- About 
+    <section class="about" id="testi">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2>Testimoni</h2>
+          </div>
+        </div>
         <div class="row justify-content-center">
           <div class="col-md-5">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
@@ -114,7 +361,23 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Harga dan Pemesanan</h1>
+    <p class="lead">Yang kami tampilkan pada Website adalah Harga Normal, Segera Chat Admin kami agar mendapatkan 
+	penawaran/promo yang sedang berlaku hari ini !</p>
+	  <hr class="my-4">
+  <p>
+  <b>Softcase Blackmatte Premium :</b><br> Rp 100.000,00<br><br>
+  <b>Softcase Anti-Crack Premium :</b><br> Rp 100.000,00<br><br>
+  <b>Hardcase 3D Premium 		 :</b><br> Rp 100.000,00<br><br>
+  <b>Glass Case Premium 		 :</b><br> Rp 120.000,00<br><br>
+  </p>
+  <a class="btn btn-primary btn-success" href="https://bit.ly/360UTtc" role="button">Chat Admin (+6282146246002) via Whatsapp</a>
+  </div>
+</div>
 
     <!-- Contact -->
     <section class="contact" id="contact">
@@ -129,16 +392,22 @@
           <div class="col-lg-4">
             <div class="card bg-primary text-white mb-4 text-center">
               <div class="card-body">
-                <h5 class="card-title">Contact Me</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title">Desainku Store</h5>
+                <p class="card-text">Custom Case Smartphone Store<br> by Rizaldi Priantama</p>
               </div>
             </div>
             
             <ul class="list-group mb-4">
-              <li class="list-group-item"><h3>Location</h3></li>
-              <li class="list-group-item">My Office</li>
-              <li class="list-group-item">Jl. Setiabudhi No. 193, Bandung</li>
-              <li class="list-group-item">West Java, Indonesia</li>
+              <li class="list-group-item"><h3>Follow Us On :</h3></li>
+              <li class="list-group-item"><svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z" />
+</svg> @desainku.store</li>
+              <li class="list-group-item"><svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.03 14.69 2 12.04 2M12.05 3.67C14.25 3.67 16.31 4.53 17.87 6.09C19.42 7.65 20.28 9.72 20.28 11.92C20.28 16.46 16.58 20.15 12.04 20.15C10.56 20.15 9.11 19.76 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24 15 3.8 13.47 3.8 11.91C3.81 7.37 7.5 3.67 12.05 3.67M8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.5 7 9.71C7 10.93 7.89 12.1 8 12.27C8.14 12.44 9.76 14.94 12.25 16C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.68 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.04 14.27C16.97 14.17 16.81 14.11 16.56 14C16.31 13.86 15.09 13.26 14.87 13.18C14.64 13.1 14.5 13.06 14.31 13.3C14.15 13.55 13.67 14.11 13.53 14.27C13.38 14.44 13.24 14.46 13 14.34C12.74 14.21 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.5 11.15 9.61 11 9.73 10.89C9.84 10.78 10 10.6 10.1 10.45C10.23 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.5 9.77 8.26 9.56 7.77C9.36 7.29 9.16 7.35 9 7.34C8.86 7.34 8.7 7.33 8.53 7.33Z" />
+</svg> (+62)82146246002</li>
+              <li class="list-group-item"><svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M20,18H18V9.25L12,13L6,9.25V18H4V6H5.2L12,10.25L18.8,6H20M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
+</svg> priantamarizaldi@gmail.com</li>
             </ul>
           </div>
 
@@ -177,7 +446,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <p>Copyright &copy; 2018.</p>
+            <p>Copyright &copy; 2021</p>
           </div>
         </div>
       </div>
@@ -186,6 +455,10 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 	    </body>
 </html>
