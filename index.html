@@ -9,15 +9,15 @@
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="icon" href="img/favicon.ico">
 
     <title>Desainku Store</title>
   </head>
   <body>
-	
+
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-      <a class="navbar-brand" href="#">Desainku Store</a>
+      <a class="navbar-brand" href="https://store.rizaldipriantama.com">Desainku Store</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -546,12 +546,12 @@
     <script>
       const CardImage = document.querySelectorAll('.gbr-anim')
       CardImage.forEach((img,i) => {
-        img.dataset.aos = 'fade-right';
+        img.dataset.aos = 'fade-left';
         img.dataset.aosDelay = i * 150;
       })
       AOS.init({
         once:true,
-        delay: 500});
+        delay: 1000});
     </script>
   
     <!-- jQuery & Bootstrap JS -->
